@@ -8,6 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+
 const BirthdayWishPage = () => {
   const confettiCanvasRef = useRef(null);
   const [showAdditionalMessage, setShowAdditionalMessage] = useState(false);

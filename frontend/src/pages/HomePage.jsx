@@ -6,6 +6,7 @@ import gsap from 'gsap';
 import Header from '../components/Header';
 import HousesBanner from '../components/HousesBanner';
 import FloatingCandles from '../components/FloatingCandles';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   const titleRef = useRef(null);
@@ -71,6 +72,8 @@ const HomePage = () => {
   };
 
   return (
+    <>
+
     <motion.div 
       className="min-h-screen bg-gradient-to-b from-blue-900 via-purple-900 to-blue-900 text-white pb-16"
       initial="initial"
@@ -125,7 +128,7 @@ const HomePage = () => {
             <div className="p-6">
               <h2 className="text-2xl font-bold mb-3 text-amber-300">Birthday Wishes</h2>
               <p className="text-purple-100 mb-5">Send your magical birthday wishes to Angel.</p>
-              <Link to="/wishes" className="inline-block px-6 py-2 bg-amber-600 hover:bg-amber-700 rounded-full font-bold transition-colors duration-300">
+              <Link to="/birthday-wish" className="inline-block px-6 py-2 bg-amber-600 hover:bg-amber-700 rounded-full font-bold transition-colors duration-300">
                 Send Wishes
               </Link>
             </div>
@@ -166,7 +169,10 @@ const HomePage = () => {
           <p className="text-right mt-2 text-amber-300 font-magical">- Albus Dumbledore</p>
         </motion.div>
       </div>
+      <Footer />
     </motion.div>
+   
+    </>
   );
 };
 

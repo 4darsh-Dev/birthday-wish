@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+import Img1 from "../assets/image-4.webp";
+import Img2 from "../assets/image-5.webp";
+import Img3 from "../assets/image-6.webp";
+import Img4 from "../assets/image-8.webp";
+import Img5 from "../assets/image-9.webp";
+import Img6 from "../assets/image-10.webp";
 
 const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -9,37 +17,37 @@ const GalleryPage = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "/api/placeholder/400/300",
+      src: Img1,
       alt: "Angel at Hogwarts Great Hall",
       caption: "First day at Hogwarts, 2020"
     },
     {
       id: 2,
-      src: "/api/placeholder/400/300",
+      src: Img2,
       alt: "Angel casting a Patronus spell",
       caption: "Learning the Patronus charm"
     },
     {
       id: 3,
-      src: "/api/placeholder/400/300",
-      alt: "Angel with friends at Hogsmeade",
-      caption: "Weekend trip to Hogsmeade"
+      src: Img3,
+      alt: "Angel's magical birthday celebration",
+      caption: "Last year's magical birthday party"
     },
     {
       id: 4,
-      src: "/api/placeholder/400/300",
+      src: Img4,
       alt: "Angel brewing potions",
       caption: "Advanced Potions class"
     },
     {
       id: 5,
-      src: "/api/placeholder/400/300",
+      src: Img5,
       alt: "Angel flying on a broomstick",
       caption: "First Quidditch match of the season"
     },
     {
       id: 6,
-      src: "/api/placeholder/400/300",
+      src: Img6,
       alt: "Angel with magical creatures",
       caption: "Care of Magical Creatures lesson"
     },
@@ -57,16 +65,11 @@ const GalleryPage = () => {
     },
     {
       id: 9,
-      src: "/api/placeholder/400/300",
+      src: "../assets/image-9.webp",
       alt: "Angel with a magic wand",
       caption: "Getting the perfect wand at Ollivanders"
     },
-    {
-      id: 10,
-      src: "/api/placeholder/400/300",
-      alt: "Angel's magical birthday celebration",
-      caption: "Last year's magical birthday party"
-    }
+   
   ];
   
   // Animation variants for gallery items
@@ -227,6 +230,7 @@ const GalleryPage = () => {
           )}
         </AnimatePresence>
       </div>
+      <Footer />
     </div>
   );
 };
