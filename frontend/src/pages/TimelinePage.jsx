@@ -3,6 +3,7 @@ import { motion, useInView, AnimatePresence } from 'framer-motion';
 import gsap from 'gsap';
 import Header from '../components/Header';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 // Importing custom components
 import MagicWand from '../components/MagicWand';
@@ -10,7 +11,7 @@ import HogwartsLetter from '../components/HogwartsLetter';
 
 const TimelinePage = () => {
   const navigate = useNavigate();
-  const [showMagicLetter, setShowMagicLetter] = useState(false);
+  const [showMagicLetter, setShowMagicLetter] = useState(true);
   const timelineContainerRef = useRef(null);
   
   // Timeline events data
@@ -549,8 +550,10 @@ const TimelinePage = () => {
   };
 
   return (
+    <>
+    <Header />
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-indigo-950 to-black py-12 page-container relative overflow-hidden">
-      <Header />
+      
       
       {/* SVG filter for glow effects */}
       <svg className="absolute" width="0" height="0">
@@ -632,8 +635,7 @@ const TimelinePage = () => {
         </div>
 
         {/* Navigation button to Gallery */}
-        <motion.div 
-          className="text-center mt-16"
+        <motion.div    className="text-center mt-16"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2 }}
@@ -644,17 +646,21 @@ const TimelinePage = () => {
           >
             See Angel's Magical Gallery →
           </button>
+        
         </motion.div>
+      
       </motion.div>
 
       {/* Hogwarts Letter Modal */}
-      {/* <AnimatePresence>
+      <AnimatePresence>
         {showMagicLetter && (
           <HogwartsLetter onClose={handleCloseHogwartsLetter} />
         )}
-      </AnimatePresence> */}
-      <HogwartsLetter onClose={handleCloseHogwartsLetter} />
+      </AnimatePresence>
+      {/* <HogwartsLetter onClose={handleCloseHogwartsLetter} /> */}
     </div>
+    <Footer />
+    </>
   );
 };
 

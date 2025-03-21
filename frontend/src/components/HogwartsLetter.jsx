@@ -227,7 +227,7 @@ const HogwartsLetter = ({ onClose }) => {
           <h3 className="font-magical text-xl text-amber-700 mb-6">of WITCHCRAFT and WIZARDRY</h3>
           
           <div className="text-amber-900 mb-6">
-            <p className="mb-4">Dear Angel,</p>
+            <p className="mb-4">Dear Anjali,</p>
             <p className="mb-4">
               We are pleased to inform you that your magical journey continues to inspire those around you.
               On this special day, we celebrate not only your birthday but the extraordinary magic 

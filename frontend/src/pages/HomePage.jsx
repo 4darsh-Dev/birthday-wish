@@ -90,7 +90,7 @@ const HomePage = () => {
       <div className="container mx-auto px-4 pt-16">
         <h1 
           ref={titleRef}
-          className="text-5xl md:text-7xl font-magical text-center text-amber-400 mt-6 mb-12"
+          className="text-4xl md:text-5xl font-magical text-center text-amber-400 mt-6 mb-12"
         >
           Welcome to Angel's Magical Birthday
         </h1>
