@@ -9,7 +9,7 @@ const Header = () => {
   const menuItems = [
     { name: 'Home', path: '/home' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Wishes', path: '/wishes' },
+    { name: 'Wishes', path: '/birthday-wish' },
     { name: 'Timeline', path: '/timeline' }
   ];
   
@@ -53,7 +53,7 @@ const Header = () => {
               className="text-amber-400 text-3xl font-magical"
               whileHover={{ scale: 1.05, textShadow: "0 0 8px rgba(255,215,0,0.7)" }}
             >
-              Angel's Magic
+              Angel's Bday
             </motion.div>
           </Link>
           
