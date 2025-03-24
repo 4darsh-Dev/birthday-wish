@@ -179,7 +179,7 @@ const BirthdayWishPage = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            Happy Birthday Angel!
+            Happy Birthday Muskan!
           </motion.h1>
           
           <motion.div 

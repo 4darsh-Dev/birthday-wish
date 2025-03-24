@@ -56,7 +56,7 @@ const LandingPage = () => {
             repeatType: "reverse" 
           }}
         >
-          Angel's Birthday
+          Muskan's Birthday
         </motion.h1>
         
         <motion.p 

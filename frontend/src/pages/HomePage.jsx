@@ -92,7 +92,7 @@ const HomePage = () => {
           ref={titleRef}
           className="text-4xl md:text-5xl font-magical text-center text-amber-400 mt-6 mb-12"
         >
-          Welcome to Angel's Magical Birthday
+          Welcome to Muskan's Magical Birthday
         </h1>
         
         {/* Hogwarts houses banner */}
@@ -127,7 +127,7 @@ const HomePage = () => {
           >
             <div className="p-6">
               <h2 className="text-2xl font-bold mb-3 text-amber-300">Birthday Wishes</h2>
-              <p className="text-purple-100 mb-5">Send your magical birthday wishes to Angel.</p>
+              <p className="text-purple-100 mb-5">Send your magical birthday wishes to Muskan.</p>
               <Link to="/birthday-wish" className="inline-block px-6 py-2 bg-amber-600 hover:bg-amber-700 rounded-full font-bold transition-colors duration-300">
                 Send Wishes
               </Link>
@@ -144,7 +144,7 @@ const HomePage = () => {
           >
             <div className="p-6">
               <h2 className="text-2xl font-bold mb-3 text-amber-300">Magical Timeline</h2>
-              <p className="text-indigo-100 mb-5">Journey through Angel's life adventures.</p>
+              <p className="text-indigo-100 mb-5">Journey through Muskan's life adventures.</p>
               <Link to="/timeline" className="inline-block px-6 py-2 bg-amber-600 hover:bg-amber-700 rounded-full font-bold transition-colors duration-300">
                 View Timeline
               </Link>
@@ -162,7 +162,7 @@ const HomePage = () => {
             transition: { delay: 1, duration: 0.8 } 
           }}
         >
-          <h2 className="text-3xl font-magical text-amber-300 mb-4 text-center">Happy Birthday, Angel!</h2>
+          <h2 className="text-3xl font-magical text-amber-300 mb-4 text-center">Happy Birthday, Muskan!</h2>
           <p className="text-amber-100 text-lg text-center italic">
             "Happiness can be found even in the darkest of times, if one only remembers to turn on the light."
           </p>

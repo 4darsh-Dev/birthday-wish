@@ -59,18 +59,19 @@ function App() {
       <div className="absolute top-4 right-4 z-50">
         <AudioControl isPlaying={audioPlaying} togglePlay={toggleAudio} />
       </div>
-
+      {/* <MagicWand /> */}
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/timeline" element={<TimelinePage />} />
+          <Route path="/magic-wand" element={<MagicWand />} />
           <Route path="/birthday-wish" element={<BirthdayWishPage />} />
         </Routes>
       </Router>
 
-      <MagicWand />
+    
     </main>
   );
 }

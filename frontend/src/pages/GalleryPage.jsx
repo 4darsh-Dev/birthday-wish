@@ -3,12 +3,21 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import Img1 from "../assets/image-4.webp";
-import Img2 from "../assets/image-5.webp";
-import Img3 from "../assets/image-6.webp";
-import Img4 from "../assets/image-8.webp";
-import Img5 from "../assets/image-9.webp";
-import Img6 from "../assets/image-10.webp";
+// import Img1 from "../assets/image-4.webp";
+// import Img2 from "../assets/image-5.webp";
+// import Img3 from "../assets/image-6.webp";
+// import Img4 from "../assets/image-8.webp";
+// import Img5 from "../assets/image-9.webp";
+// import Img6 from "../assets/image-10.webp";
+
+import Img1 from "../assets/sample-1.jpg"
+import Img2 from "../assets/sample-2.jpg"
+import Img3 from "../assets/sample-3.jpg"
+import Img4 from "../assets/sample-4.jpg"
+import Img5 from "../assets/sample-5.webp"
+import Img6 from "../assets/sample-6.png"
+import Img7 from "../assets/sample-7.jpg"
+
 
 const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -18,55 +27,55 @@ const GalleryPage = () => {
     {
       id: 1,
       src: Img1,
-      alt: "Angel at Hogwarts Great Hall",
+      alt: "Muskan at Hogwarts Great Hall",
       caption: "First day at Hogwarts, 2020"
     },
     {
       id: 2,
       src: Img2,
-      alt: "Angel casting a Patronus spell",
+      alt: "Muskan casting a Patronus spell",
       caption: "Learning the Patronus charm"
     },
     {
       id: 3,
       src: Img3,
-      alt: "Angel's magical birthday celebration",
+      alt: "Muskan's magical birthday celebration",
       caption: "Last year's magical birthday party"
     },
     {
       id: 4,
       src: Img4,
-      alt: "Angel brewing potions",
+      alt: "Muskan brewing potions",
       caption: "Advanced Potions class"
     },
     {
       id: 5,
       src: Img5,
-      alt: "Angel flying on a broomstick",
+      alt: "Muskan flying on a broomstick",
       caption: "First Quidditch match of the season"
     },
     {
       id: 6,
       src: Img6,
-      alt: "Angel with magical creatures",
+      alt: "Muskan with magical creatures",
       caption: "Care of Magical Creatures lesson"
     },
     {
       id: 7,
-      src: "/api/placeholder/400/300",
-      alt: "Angel at Yule Ball",
+      src: Img7,
+      alt: "Muskan at Yule Ball",
       caption: "The enchanted Yule Ball"
     },
     {
       id: 8,
       src: "/api/placeholder/400/300",
-      alt: "Angel in Diagon Alley",
+      alt: "Muskan in Diagon Alley",
       caption: "Shopping for spell books in Diagon Alley"
     },
     {
       id: 9,
       src: "../assets/image-9.webp",
-      alt: "Angel with a magic wand",
+      alt: "Muskan with a magic wand",
       caption: "Getting the perfect wand at Ollivanders"
     },
    
@@ -149,7 +158,7 @@ const GalleryPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Angel's Magical Memories
+          Muskan's Magical Memories
         </motion.h1>
         
         {/* Gallery Grid */}

@@ -20,7 +20,7 @@ const TimelinePage = () => {
       id: 1,
       year: "2005",
       title: "A Magical Birth",
-      description: "Angel was born on a night when shooting stars were seen all over the country, much like the night Harry Potter was delivered to Privet Drive.",
+      description: "Muskan was born on a night when shooting stars were seen all over the country, much like the night Harry Potter was delivered to Privet Drive.",
       icon: "✨",
       color: "from-purple-900 to-indigo-900",
       iconBg: "bg-purple-700"
@@ -29,7 +29,7 @@ const TimelinePage = () => {
       id: 2,
       year: "2011",
       title: "First Signs of Magic",
-      description: "At age 6, strange events began to happen around Angel. Books would float off shelves when she was excited, and lights would flicker when she was upset.",
+      description: "At age 6, strange events began to happen around Muskan. Books would float off shelves when she was excited, and lights would flicker when she was upset.",
       icon: "📚",
       color: "from-blue-900 to-indigo-900",
       iconBg: "bg-blue-700"
@@ -38,7 +38,7 @@ const TimelinePage = () => {
       id: 3,
       year: "2016",
       title: "Discovery of Harry Potter",
-      description: "Angel discovered the magical world of Harry Potter books and became entranced with the wizarding world, reading all seven books in just three months!",
+      description: "Muskan discovered the magical world of Harry Potter books and became entranced with the wizarding world, reading all seven books in just three months!",
       icon: "⚡",
       color: "from-emerald-900 to-teal-900",
       iconBg: "bg-emerald-700"
@@ -47,7 +47,7 @@ const TimelinePage = () => {
       id: 4,
       year: "2018",
       title: "Artistic Talents Emerge",
-      description: "Angel's artistic talents began to shine as she created amazing Harry Potter-inspired artwork that captured the magic of the series.",
+      description: "Muskan's artistic talents began to shine as she created amazing Harry Potter-inspired artwork that captured the magic of the series.",
       icon: "🎨",
       color: "from-amber-900 to-yellow-900",
       iconBg: "bg-amber-700"
@@ -56,7 +56,7 @@ const TimelinePage = () => {
       id: 5,
       year: "2020",
       title: "First Wizard Convention",
-      description: "Angel attended her first Harry Potter convention dressed as Hermione Granger, even winning the costume contest with her perfect spell-casting pose!",
+      description: "Muskan attended her first Harry Potter convention dressed as Hermione Granger, even winning the costume contest with her perfect spell-casting pose!",
       icon: "🧙‍♀️",
       color: "from-rose-900 to-pink-900",
       iconBg: "bg-rose-700"
@@ -65,7 +65,7 @@ const TimelinePage = () => {
       id: 6,
       year: "2022",
       title: "Trip to The Wizarding World",
-      description: "A dream come true as Angel visited The Wizarding World of Harry Potter, where she drank Butterbeer and got her very own interactive wand.",
+      description: "A dream come true as Muskan visited The Wizarding World of Harry Potter, where she drank Butterbeer and got her very own interactive wand.",
       icon: "🏰",
       color: "from-cyan-900 to-sky-900",
       iconBg: "bg-cyan-700"
@@ -74,7 +74,7 @@ const TimelinePage = () => {
       id: 7,
       year: "2024",
       title: "Creating Magic",
-      description: "Angel began creating her own magical stories and artwork inspired by the world of Harry Potter, sharing them with friends and online communities.",
+      description: "Muskan began creating her own magical stories and artwork inspired by the world of Harry Potter, sharing them with friends and online communities.",
       icon: "✍️",
       color: "from-violet-900 to-fuchsia-900",
       iconBg: "bg-violet-700"
@@ -83,7 +83,7 @@ const TimelinePage = () => {
       id: 8,
       year: "2025",
       title: "Magical Birthday",
-      description: "Today we celebrate Angel's special day with a Harry Potter themed party that brings together all her friends from the wizarding community.",
+      description: "Today we celebrate Muskan's special day with a Harry Potter themed party that brings together all her friends from the wizarding community.",
       icon: "🎂",
       color: "from-red-900 to-rose-900",
       iconBg: "bg-red-700"
@@ -610,7 +610,7 @@ const TimelinePage = () => {
           className="text-6xl font-magical text-center text-amber-400 mb-16"
           variants={titleVariants}
         >
-          <span className="inline-block">Angel's </span>
+          <span className="inline-block">Muskan's </span>
           <span className="inline-block ml-2">Magical </span>
           <span className="inline-block ml-2">Timeline</span>
         </motion.h1>
@@ -644,7 +644,7 @@ const TimelinePage = () => {
             onClick={navigateToGallery}
             className="px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-800 text-white font-magical rounded-full hover:shadow-amber-500/50 hover:shadow-lg transform transition-all duration-300 hover:scale-105"
           >
-            See Angel's Magical Gallery →
+            See Muskan's Magical Gallery →
           </button>
         
         </motion.div>
